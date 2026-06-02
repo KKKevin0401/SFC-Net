@@ -13,10 +13,11 @@
 ## Installation
 
      python=3.9
-     pytorch=1.13.1
-     torchvision==0.14.1
+     pytorch-lightning==2.4.0
+     pytorch-ssim==0.1
+     torchvision==0.16.1
      scipy==1.10.1 
-     opencv-python=4.6.0.66
+     opencv-python==4.10.0.84
 
 ## Pretrained models
 
@@ -26,7 +27,7 @@ We provide the Google Drive links for the following pre-trained weights.
 
 You can run the following code for testing：
 
-    python evaluate.py
+    python test.py
 
 ## Training
 
