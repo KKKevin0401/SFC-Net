@@ -31,7 +31,7 @@ You can run the following code for testing：
 
 ## Training
 
-You need to modify your data according to ```datasets/dataset.py```, and then train your own model by running the following commad. 
+You can train your own model by running the following commad. 
 
     python train.py
     
